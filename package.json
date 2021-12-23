@@ -2,7 +2,7 @@
   "name": "dukpt",
   "version": "4.0.2",
   "description": "Node JS Library for Derived Unique Key Per Transaction (DUKPT) Encryption",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "nyc --reporter=text-summary --reporter=cobertura --reporter=lcov node_modules/.bin/mocha test/**/*.js",
     "build": "npm run test && babel ./src --out-dir ./dist",
